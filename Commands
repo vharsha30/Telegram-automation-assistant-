@@ -1,0 +1,6 @@
+voice msg
+{{ $('HTTP Request2').item.json.text }} 
+
+text msg
+{{ $('Telegram Trigger').item.json.message.text }}
+
